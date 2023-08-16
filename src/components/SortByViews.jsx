@@ -1,8 +1,10 @@
 import Popular from "./Popular";
 import New from "./New";
+// import PropTypes from 'prop-types';
 
 export default function sortByViews(Component) {
-    return function (props) {
+    return function Sorting (props) {
+
       if (props.views > 1000) {
         return (
           <Popular><Component {...props} /></Popular>
@@ -16,6 +18,8 @@ export default function sortByViews(Component) {
       return <Component {...props} />
     }
   }
+
+
 
 //  const SortByViews = withSortByViews(Popular, New);
 

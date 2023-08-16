@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function Article(props) {
     return (
       <div className="item item-article">
@@ -5,6 +7,12 @@ function Article(props) {
         <p className="views">Прочтений: {props.views}</p>
       </div>
     )
-  };
+  }
+
+  Article.propTypes = {
+    title: PropTypes.string.isRequired,
+    views: PropTypes.number.isRequired,
+    type: PropTypes.string.isRequired
+  }
 
 export default Article;

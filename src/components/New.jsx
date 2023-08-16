@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 function New(props) {
     return (
       <div className="wrap-item wrap-item-new">
@@ -5,6 +7,10 @@ function New(props) {
         {props.children}
       </div>
     )
-  };
+  }
+
+  New.propTypes = {
+    children: PropTypes.node.isRequired
+  }
 
 export default New;
