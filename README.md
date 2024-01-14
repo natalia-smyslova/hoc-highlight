@@ -2,6 +2,8 @@
 
 [![Netology AHJ](https://github.com/natalia-smyslova/hoc-highlight/actions/workflows/web.yml/badge.svg)](https://github.com/natalia-smyslova/hoc-highlight/actions/workflows/web.yml)
 
+[ДЕМО](https://natalia-smyslova.github.io/hoc-highlight/)
+
 Подсвечивание блоков
 ===
 
